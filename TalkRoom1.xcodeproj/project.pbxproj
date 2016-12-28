@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA879C21DC542182DC5A971 /* Pods_TalkRoom1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136CF504626F0A4EBAF40FD5 /* Pods_TalkRoom1.framework */; };
 		F352C93B1E122E90002654AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352C93A1E122E90002654AC /* AppDelegate.swift */; };
 		F352C93D1E122E90002654AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F352C93C1E122E90002654AC /* ViewController.swift */; };
 		F352C9401E122E90002654AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F352C93E1E122E90002654AC /* Main.storyboard */; };
 		F352C9421E122E90002654AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F352C9411E122E90002654AC /* Assets.xcassets */; };
 		F352C9451E122E90002654AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F352C9431E122E90002654AC /* LaunchScreen.storyboard */; };
+		F352C9581E122FEB002654AC /* backImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F352C94C1E122FEA002654AC /* backImage.jpg */; };
+		F352C9591E122FEB002654AC /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C94D1E122FEA002654AC /* camera.png */; };
+		F352C95A1E122FEB002654AC /* cc.gif in Resources */ = {isa = PBXBuildFile; fileRef = F352C94E1E122FEA002654AC /* cc.gif */; };
+		F352C95B1E122FEB002654AC /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C94F1E122FEB002654AC /* five.png */; };
+		F352C95C1E122FEB002654AC /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9501E122FEB002654AC /* four.png */; };
+		F352C95D1E122FEB002654AC /* library.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9511E122FEB002654AC /* library.png */; };
+		F352C95E1E122FEB002654AC /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9521E122FEB002654AC /* one.png */; };
+		F352C95F1E122FEB002654AC /* roomBGI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F352C9531E122FEB002654AC /* roomBGI.jpg */; };
+		F352C9601E122FEB002654AC /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9541E122FEB002654AC /* seven.png */; };
+		F352C9611E122FEB002654AC /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9551E122FEB002654AC /* six.png */; };
+		F352C9621E122FEB002654AC /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9561E122FEB002654AC /* three.png */; };
+		F352C9631E122FEB002654AC /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9571E122FEB002654AC /* two.png */; };
+		F352C9651E12309F002654AC /* blurback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F352C9641E12309F002654AC /* blurback.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136CF504626F0A4EBAF40FD5 /* Pods_TalkRoom1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkRoom1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E36FA6E53F9AC908B6F373 /* Pods-TalkRoom1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkRoom1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalkRoom1/Pods-TalkRoom1.debug.xcconfig"; sourceTree = "<group>"; };
 		F352C9371E122E90002654AC /* TalkRoom1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkRoom1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F352C93A1E122E90002654AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F352C93C1E122E90002654AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,20 @@
 		F352C9411E122E90002654AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F352C9441E122E90002654AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F352C9461E122E90002654AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F352C94C1E122FEA002654AC /* backImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImage.jpg; sourceTree = "<group>"; };
+		F352C94D1E122FEA002654AC /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		F352C94E1E122FEA002654AC /* cc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cc.gif; sourceTree = "<group>"; };
+		F352C94F1E122FEB002654AC /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		F352C9501E122FEB002654AC /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		F352C9511E122FEB002654AC /* library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library.png; sourceTree = "<group>"; };
+		F352C9521E122FEB002654AC /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		F352C9531E122FEB002654AC /* roomBGI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roomBGI.jpg; sourceTree = "<group>"; };
+		F352C9541E122FEB002654AC /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		F352C9551E122FEB002654AC /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		F352C9561E122FEB002654AC /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		F352C9571E122FEB002654AC /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		F352C9641E12309F002654AC /* blurback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurback.jpg; sourceTree = "<group>"; };
+		FDD19C08D4DFD72A23B6723E /* Pods-TalkRoom1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkRoom1.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkRoom1/Pods-TalkRoom1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA879C21DC542182DC5A971 /* Pods_TalkRoom1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		648E935D96E6C16BF1A0F345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				136CF504626F0A4EBAF40FD5 /* Pods_TalkRoom1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C662685557EE3586069DD897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E36FA6E53F9AC908B6F373 /* Pods-TalkRoom1.debug.xcconfig */,
+				FDD19C08D4DFD72A23B6723E /* Pods-TalkRoom1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F352C92E1E122E90002654AC = {
 			isa = PBXGroup;
 			children = (
 				F352C9391E122E90002654AC /* TalkRoom1 */,
 				F352C9381E122E90002654AC /* Products */,
+				C662685557EE3586069DD897 /* Pods */,
+				648E935D96E6C16BF1A0F345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +110,19 @@
 				F352C9411E122E90002654AC /* Assets.xcassets */,
 				F352C9431E122E90002654AC /* LaunchScreen.storyboard */,
 				F352C9461E122E90002654AC /* Info.plist */,
+				F352C9641E12309F002654AC /* blurback.jpg */,
+				F352C94C1E122FEA002654AC /* backImage.jpg */,
+				F352C94D1E122FEA002654AC /* camera.png */,
+				F352C94E1E122FEA002654AC /* cc.gif */,
+				F352C94F1E122FEB002654AC /* five.png */,
+				F352C9501E122FEB002654AC /* four.png */,
+				F352C9511E122FEB002654AC /* library.png */,
+				F352C9521E122FEB002654AC /* one.png */,
+				F352C9531E122FEB002654AC /* roomBGI.jpg */,
+				F352C9541E122FEB002654AC /* seven.png */,
+				F352C9551E122FEB002654AC /* six.png */,
+				F352C9561E122FEB002654AC /* three.png */,
+				F352C9571E122FEB002654AC /* two.png */,
 			);
 			path = TalkRoom1;
 			sourceTree = "<group>";
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F352C9491E122E90002654AC /* Build configuration list for PBXNativeTarget "TalkRoom1" */;
 			buildPhases = (
+				A0DE204766D97ADBC9B0E82B /* [CP] Check Pods Manifest.lock */,
 				F352C9331E122E90002654AC /* Sources */,
 				F352C9341E122E90002654AC /* Frameworks */,
 				F352C9351E122E90002654AC /* Resources */,
+				8EDFB11345B192E75D8166B2 /* [CP] Embed Pods Frameworks */,
+				63336328F731AFAE8448D88F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +162,7 @@
 				TargetAttributes = {
 					F352C9361E122E90002654AC = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TV6NUH4G9D;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,13 +190,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F352C95A1E122FEB002654AC /* cc.gif in Resources */,
+				F352C9651E12309F002654AC /* blurback.jpg in Resources */,
+				F352C9601E122FEB002654AC /* seven.png in Resources */,
+				F352C9621E122FEB002654AC /* three.png in Resources */,
+				F352C9631E122FEB002654AC /* two.png in Resources */,
+				F352C95D1E122FEB002654AC /* library.png in Resources */,
+				F352C9581E122FEB002654AC /* backImage.jpg in Resources */,
 				F352C9451E122E90002654AC /* LaunchScreen.storyboard in Resources */,
+				F352C9611E122FEB002654AC /* six.png in Resources */,
+				F352C95B1E122FEB002654AC /* five.png in Resources */,
 				F352C9421E122E90002654AC /* Assets.xcassets in Resources */,
+				F352C95F1E122FEB002654AC /* roomBGI.jpg in Resources */,
+				F352C95E1E122FEB002654AC /* one.png in Resources */,
 				F352C9401E122E90002654AC /* Main.storyboard in Resources */,
+				F352C9591E122FEB002654AC /* camera.png in Resources */,
+				F352C95C1E122FEB002654AC /* four.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63336328F731AFAE8448D88F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkRoom1/Pods-TalkRoom1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDFB11345B192E75D8166B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalkRoom1/Pods-TalkRoom1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DE204766D97ADBC9B0E82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F352C9331E122E90002654AC /* Sources */ = {
@@ -256,8 +384,10 @@
 		};
 		F352C94A1E122E90002654AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E36FA6E53F9AC908B6F373 /* Pods-TalkRoom1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TV6NUH4G9D;
 				INFOPLIST_FILE = TalkRoom1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.musashi.TalkRoom1;
@@ -268,8 +398,10 @@
 		};
 		F352C94B1E122E90002654AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD19C08D4DFD72A23B6723E /* Pods-TalkRoom1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TV6NUH4G9D;
 				INFOPLIST_FILE = TalkRoom1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.musashi.TalkRoom1;
