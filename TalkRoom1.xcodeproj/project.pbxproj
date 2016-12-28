@@ -26,6 +26,8 @@
 		F352C9621E122FEB002654AC /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9561E122FEB002654AC /* three.png */; };
 		F352C9631E122FEB002654AC /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = F352C9571E122FEB002654AC /* two.png */; };
 		F352C9651E12309F002654AC /* blurback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F352C9641E12309F002654AC /* blurback.jpg */; };
+		F39E377A1E139C4A0016AFBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F39E37791E139C4A0016AFBB /* GoogleService-Info.plist */; };
+		F39E377C1E13E90B0016AFBB /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39E377B1E13E90B0016AFBB /* RoomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		F352C9561E122FEB002654AC /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
 		F352C9571E122FEB002654AC /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
 		F352C9641E12309F002654AC /* blurback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurback.jpg; sourceTree = "<group>"; };
+		F39E37791E139C4A0016AFBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F39E377B1E13E90B0016AFBB /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
 		FDD19C08D4DFD72A23B6723E /* Pods-TalkRoom1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkRoom1.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalkRoom1/Pods-TalkRoom1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,7 @@
 			children = (
 				F352C93A1E122E90002654AC /* AppDelegate.swift */,
 				F352C93C1E122E90002654AC /* ViewController.swift */,
+				F39E377B1E13E90B0016AFBB /* RoomViewController.swift */,
 				F352C93E1E122E90002654AC /* Main.storyboard */,
 				F352C9411E122E90002654AC /* Assets.xcassets */,
 				F352C9431E122E90002654AC /* LaunchScreen.storyboard */,
@@ -123,6 +128,7 @@
 				F352C9551E122FEB002654AC /* six.png */,
 				F352C9561E122FEB002654AC /* three.png */,
 				F352C9571E122FEB002654AC /* two.png */,
+				F39E37791E139C4A0016AFBB /* GoogleService-Info.plist */,
 			);
 			path = TalkRoom1;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				F352C9451E122E90002654AC /* LaunchScreen.storyboard in Resources */,
 				F352C9611E122FEB002654AC /* six.png in Resources */,
 				F352C95B1E122FEB002654AC /* five.png in Resources */,
+				F39E377A1E139C4A0016AFBB /* GoogleService-Info.plist in Resources */,
 				F352C9421E122E90002654AC /* Assets.xcassets in Resources */,
 				F352C95F1E122FEB002654AC /* roomBGI.jpg in Resources */,
 				F352C95E1E122FEB002654AC /* one.png in Resources */,
@@ -264,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39E377C1E13E90B0016AFBB /* RoomViewController.swift in Sources */,
 				F352C93D1E122E90002654AC /* ViewController.swift in Sources */,
 				F352C93B1E122E90002654AC /* AppDelegate.swift in Sources */,
 			);
@@ -389,6 +397,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TV6NUH4G9D;
 				INFOPLIST_FILE = TalkRoom1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.musashi.TalkRoom1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -403,6 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TV6NUH4G9D;
 				INFOPLIST_FILE = TalkRoom1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.musashi.TalkRoom1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +439,7 @@
 				F352C94B1E122E90002654AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
